@@ -1,0 +1,42 @@
+#include <stdio.h>
+void requirementsPhase();
+void designPhase();
+void implementationPhase();
+void testingPhase();
+void maintenancePhase();
+
+int main() {
+    printf("Waterfall Model Phases:\n");
+    printf("-----------------------\n");
+
+    requirementsPhase();
+    designPhase();
+    implementationPhase();
+    testingPhase();
+    maintenancePhase();
+    
+    printf("-----------------------\n");
+    printf("Software development completed successfully!\n");
+    
+    return 0;
+}
+
+void requirementsPhase() {
+    printf("Requirements Phase: Gathering and documenting software requirements.\n");
+}
+
+void designPhase() {
+    printf("Design Phase: Creating software architecture and detailed design documents.\n");
+}
+
+void implementationPhase() {
+    printf("Implementation Phase: Writing code based on the design specifications.\n");
+}
+
+void testingPhase() {
+    printf("Testing Phase: Executing test cases to ensure software meets requirements.\n");
+}
+
+void maintenancePhase() {
+    printf("Maintenance Phase: Deploying software and providing ongoing support and updates.\n");
+}
